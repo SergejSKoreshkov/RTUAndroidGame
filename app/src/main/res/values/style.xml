@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <style parent="Theme.AppCompat.NoActionBar" name="AppTheme">
+    <item name="android:windowBackground">@android:color/black</item>
+
+</style>
+
+
+    <style parent="@style/AppTheme" name="TransparentTheme">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:backgroundDimEnabled">true</item>
+    <item name="android:backgroundDimAmount">0.3</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    <item name="background">@android:color/transparent</item>
+
+</style>
+
+</resources>
